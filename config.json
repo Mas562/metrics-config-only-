@@ -1,0 +1,129 @@
+{
+  "pauses": {
+    "long_pause_threshold_sec": 2.0,
+    "sber_segment_pause_threshold_sec": 0.8,
+    "sber_segment_max_words": 15,
+    "duration_round_digits": 2
+  },
+  "tempo": {
+    "window_sec": 5.0,
+    "step_sec": 1.0,
+    "wpm_multiplier": 60,
+    "wpm_round_digits": 1,
+    "zones": {
+      "red": {
+        "min_lt": 80,
+        "max_gt": 160
+      },
+      "yellow": {
+        "min_lt": 100,
+        "max_gt": 140
+      }
+    }
+  },
+  "score_labels": [
+    {
+      "min_score": 90,
+      "label": "Великолепно"
+    },
+    {
+      "min_score": 80,
+      "label": "Отлично"
+    },
+    {
+      "min_score": 70,
+      "label": "Хорошо"
+    },
+    {
+      "min_score": 55,
+      "label": "Нормально"
+    },
+    {
+      "min_score": 40,
+      "label": "Слабо"
+    },
+    {
+      "min_score": 0,
+      "label": "Требует внимания"
+    }
+  ],
+  "audio": {
+    "volume": {
+      "very_quiet_lt": 0.01,
+      "quiet_lt": 0.03,
+      "loud_gt": 0.15,
+      "normalization_rms": 0.06,
+      "max_score": 100,
+      "levels": {
+        "very_quiet": "Очень тихо",
+        "quiet": "Тиховато",
+        "loud": "Громко",
+        "normal": "Нормально"
+      }
+    },
+    "tone": {
+      "pitch_fmin_note": "C2",
+      "pitch_fmax_note": "C7",
+      "normalization_std": 35,
+      "max_score": 100,
+      "empty_pitch_std": 0
+    }
+  },
+  "video": {
+    "target_frame_width": 480,
+    "visual_deviation": 0.25,
+    "movement_threshold": 0.002,
+    "frame_sample_every": 5,
+    "min_frames_with_face": 10,
+    "min_frames_with_pose": 10,
+    "gesture_scale": 3500,
+    "gesture_low_lt": 15,
+    "gesture_high_gt": 85,
+    "max_score": 100,
+    "default_scores": {
+      "gaze": 0,
+      "gesture": 0
+    },
+    "default_advice": "Анализ не удался (мало данных)",
+    "advice": {
+      "low": "Вы почти неподвижны (или мы не видим рук). Добавьте энергии!",
+      "high": "Очень много движений, попробуйте контролировать жесты.",
+      "normal": "Отличная, естественная жестикуляция."
+    },
+    "mediapipe": {
+      "min_detection_confidence": 0.5,
+      "min_tracking_confidence": 0.5,
+      "model_complexity": 1,
+      "static_image_mode": false
+    },
+    "landmarks": {
+      "nose": 1,
+      "left_face_edge": 234,
+      "right_face_edge": 454,
+      "left_wrist": 15,
+      "right_wrist": 16
+    },
+    "file_size_divisors": {
+      "bytes_per_kb": 1024,
+      "kb_per_mb": 1024
+    }
+  },
+  "confidence_index": {
+    "empty_text_fallback_words": 1,
+    "empty_ratio": 0,
+    "filler_ratio_precision": 4,
+    "filler_score": {
+      "base_score": 100,
+      "penalty_multiplier": 750,
+      "min_score": 0
+    },
+    "weights": {
+      "filler": 0.35,
+      "tone": 0.25,
+      "volume": 0.2,
+      "gaze": 0.1,
+      "gesture": 0.1
+    },
+    "max_total": 100
+  }
+}
