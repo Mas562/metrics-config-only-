@@ -1,0 +1,16 @@
+{
+  "gesture_metric_name": "TBD_после_сравнения",
+  "gesture_threshold_bad": null,
+  "gesture_threshold_good": null,
+  "gesture_distance_stability_tolerance": null,
+  "gesture_preprocessing_target_width": 480,
+  "gesture_preprocessing_frame_sample_every": 5,
+  "gesture_weights": {
+    "gesture_weight_activity": null,
+    "gesture_weight_amplitude": null,
+    "gesture_weight_rhythm": null,
+    "gesture_weight_variability": null,
+    "gesture_weight_pointing_bonus": null
+  },
+  "gesture_notes": "Заполнить после сравнения методов и потом выбрать финальный алгоритм."
+}

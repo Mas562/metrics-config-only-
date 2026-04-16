@@ -1,0 +1,10 @@
+video_id,имя_файла,группа,тип_источника,длительность_сек,исходный_fps,исходное_разрешение,категория_дистанции,есть_показывание_на_слайды,заметки
+prof_01,"",good_professional,external,,,,,,
+prof_02,"",good_professional,external,,,,,,
+prof_03,"",good_professional,external,,,,,,
+prof_04,"",good_professional,external,,,,,,
+bad_01,"",bad,external,,,,,,
+bad_02,"",bad,external,,,,,,
+self_01,"",self_recorded,self,,,,near,yes,
+self_02,"",self_recorded,self,,,,mid,yes,
+self_03,"",self_recorded,self,,,,far,yes,
