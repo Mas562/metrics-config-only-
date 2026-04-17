@@ -5,6 +5,6 @@ prof_03,time_proff_3.mp4,good_professional,external,314.44,,1280x720,,,есте�
 prof_04,time_proff_4.mp4,good_professional,external,848.60,,634x480,,,естественная уверенная жестикуляция
 bad_01,time_bad_1.mp4,bad,external,75.00,,1280x720,,,слабая или неудачная жестикуляция
 bad_02,time_bad_2.mp4,bad,external,329.14,,1280x720,,,слабая или неудачная жестикуляция
-self_01,self_near_take_01.mp4,self_recorded,self,,,,near,yes,
-self_02,self_mid_take_01.mp4,self_recorded,self,,,,mid,yes,
-self_03,self_far_take_01.mp4,self_recorded,self,git fetch origin ,,,far,yes,
+self_01,self_near_take.mp4,self_recorded,self,195.00,60,1080x1920,near,yes,
+self_02,self_mid_take.mp4,self_recorded,self,204.00,60,1080x1920,mid,yes,
+self_03,self_far_take.mp4,self_recorded,self,275.00,60,1080x1920,far,yes,
