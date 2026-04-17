@@ -7,4 +7,4 @@ bad_01,time_bad_1.mp4,bad,external,75.00,,1280x720,,,слабая или неу�
 bad_02,time_bad_2.mp4,bad,external,329.14,,1280x720,,,слабая или неудачная жестикуляция
 self_01,self_near_take_01.mp4,self_recorded,self,,,,near,yes,
 self_02,self_mid_take_01.mp4,self_recorded,self,,,,mid,yes,
-self_03,self_far_take_01.mp4,self_recorded,self,,,,far,yes,
+self_03,self_far_take_01.mp4,self_recorded,self,git fetch origin ,,,far,yes,
