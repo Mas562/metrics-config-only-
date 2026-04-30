@@ -1,8 +1,13 @@
 {
-  "gesture_metric_name": "TBD_после_сравнения",
-  "gesture_threshold_bad": null,
-  "gesture_threshold_good": null,
-  "gesture_distance_stability_tolerance": null,
+  "gesture_metric_name": "charisma_master_baseline_confirmed",
+  "gesture_threshold_bad": 15,
+  "gesture_threshold_good": 85,
+  "gesture_distance_stability_tolerance": 0.005616618388312837,
+  "gesture_movement_threshold": 0.002,
+  "gesture_scale": 3500,
+  "gesture_max_score": 100,
+  "gesture_low_lt": 15,
+  "gesture_high_gt": 85,
   "gesture_preprocessing_target_width": 480,
   "gesture_preprocessing_frame_sample_every": 5,
   "gesture_weights": {
@@ -12,5 +17,5 @@
     "gesture_weight_variability": null,
     "gesture_weight_pointing_bonus": null
   },
-  "gesture_notes": "Заполнить после сравнения методов и потом выбрать финальный алгоритм."
+  "gesture_notes": "Подтверждённая baseline-конфигурация по итогам фидбэка: оставляем charisma_master_baseline и текущие baseline-пороги. По текущим данным charisma_master_baseline показывает лучший стандартизированный разрыв good vs bad (1.3594) и наименьшую чувствительность к дистанции на self_recorded (0.0056). Вывод о self_recorded также подтверждён: в текущих роликах жестикуляция действительно ближе к bad, чем к good. У baseline нет отдельных gesture_weights: ключевые параметры и пороги baseline зафиксированы в этом config.json."
 }
