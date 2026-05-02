@@ -1,0 +1,20 @@
+{
+  "confidence_index_version": "1.1.0",
+  "empty_text_fallback_words": 1,
+  "empty_ratio": 0,
+  "filler_ratio_precision": 4,
+  "filler_score": {
+    "base_score": 100,
+    "penalty_multiplier": 750,
+    "min_score": 0
+  },
+  "weights": {
+    "filler": 0.35,
+    "tone": 0.30,
+    "gaze": 0.15,
+    "gesture": 0.12,
+    "volume": 0.08
+  },
+  "max_total": 100,
+  "weights_notes": "v1.1.0: пересмотрены веса относительно baseline v1.0.0 (filler=0.35, tone=0.25, volume=0.20, gaze=0.10, gesture=0.10). Вес volume снижен с 0.20 до 0.08 как субъективной и технически зависимой метрики. Высвобожденный вес перераспределён в пользу tone (+0.05), gaze (+0.05) и gesture (+0.02) — метрик, более непосредственно отражающих качество публичного выступления."
+}

@@ -1,0 +1,15 @@
+{
+  "volume_metric_name": "rms_volume_baseline",
+  "very_quiet_lt": 0.01,
+  "quiet_lt": 0.03,
+  "loud_gt": 0.15,
+  "normalization_rms": 0.06,
+  "max_score": 100,
+  "levels": {
+    "very_quiet": "Очень тихо",
+    "quiet": "Тиховато",
+    "loud": "Громко",
+    "normal": "Нормально"
+  },
+  "volume_notes": "Baseline-конфигурация оценки громкости на основе RMS. Нормализационное значение 0.06 соответствует комфортному уровню речи при записи на стандартный микрофон. Пороги very_quiet/quiet/loud подобраны эмпирически под типичные условия записи выступлений."
+}

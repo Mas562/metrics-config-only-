@@ -119,10 +119,10 @@
     },
     "weights": {
       "filler": 0.35,
-      "tone": 0.25,
-      "volume": 0.2,
-      "gaze": 0.1,
-      "gesture": 0.1
+      "tone": 0.30,
+      "gaze": 0.15,
+      "gesture": 0.12,
+      "volume": 0.08
     },
     "max_total": 100
   }

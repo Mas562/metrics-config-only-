@@ -1,0 +1,18 @@
+{
+  "tempo_metric_name": "sliding_window_wpm_baseline",
+  "window_sec": 5.0,
+  "step_sec": 1.0,
+  "wpm_multiplier": 60,
+  "wpm_round_digits": 1,
+  "zones": {
+    "red": {
+      "min_lt": 80,
+      "max_gt": 160
+    },
+    "yellow": {
+      "min_lt": 100,
+      "max_gt": 140
+    }
+  },
+  "tempo_notes": "Baseline-конфигурация расчёта темпа речи через скользящее окно. Зоны red/yellow/green определяют комфортный диапазон для публичного выступления. Оптимальный темп — 100–140 WPM (зелёная зона). Ниже 80 и выше 160 WPM — красная зона, требующая внимания."
+}
