@@ -5,7 +5,7 @@
     "yaw_center_offset": 180.0,
     "pitch_center_offset": 10.0,
     "head_pose_thresholds": {
-      "yaw_limit": 40.0,
+      "yaw_limit": 30.0,
       "pitch_limit": [
         -20.0,
         65.0
@@ -14,7 +14,7 @@
     "iris_tracking": {
       "base_gaze": 0.5,
       "yaw_gaze_coefficient": 0.013,
-      "gaze_tolerance": 0.08
+      "gaze_tolerance": 0.1
     },
     "landmarks": {
       "pnp_indices": [
