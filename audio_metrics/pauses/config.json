@@ -1,0 +1,8 @@
+{
+  "pauses_metric_name": "long_pause_detector_baseline",
+  "long_pause_threshold_sec": 2.0,
+  "sber_segment_pause_threshold_sec": 0.8,
+  "sber_segment_max_words": 15,
+  "duration_round_digits": 2,
+  "pauses_notes": "Baseline-конфигурация детектора длинных пауз. Порог 2.0 сек отделяет риторические паузы от нежелательных провалов в речи. Порог сегментации 0.8 сек и лимит 15 слов используются для разбиения Sber-транскрипта на смысловые сегменты."
+}

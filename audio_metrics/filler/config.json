@@ -1,0 +1,12 @@
+{
+  "filler_metric_name": "filler_ratio_penalty_baseline",
+  "empty_text_fallback_words": 1,
+  "empty_ratio": 0,
+  "filler_ratio_precision": 4,
+  "filler_score": {
+    "base_score": 100,
+    "penalty_multiplier": 750,
+    "min_score": 0
+  },
+  "filler_notes": "Baseline-конфигурация штрафной оценки за слова-паразиты. Формула: score = max(0, 100 - ratio * 750). При ratio=0.133 (каждое 7-е слово — паразит) score падает до 0. Penalty_multiplier=750 подобран так, чтобы даже небольшая доля паразитов (2–3%) давала заметный штраф, стимулируя спикера к чистой речи."
+}
